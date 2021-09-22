@@ -5,7 +5,7 @@ English Patch for Yu-Gi-Oh! 5D's Tag Force 6 + translation tools
 ### EHP Packer
 Unpacks and repacks EHP archives. Load an EHP archive first with the "Load File" button. While an EHP archive is loaded, you either  
 a) press the "Unpack" button to extract the contents of the EHP archive to a directory of your choice  
-b) press the "Repack" button to choose a directory that you want to reinsert into the EHP archive
+b) press the "Repack" button to choose a directory that you want to reinsert into the EHP archive  
 WARNING: If you try to use this tool on EHP files that have been modified by Clickclaxer01 aka Screw_the_Rules, it's very likely that it will fail to extract the contents properly. Some files may appear cut-off, because the offsets and file sizes have not been adjusted properly when the file was modified, from what I could tell. For best results, always use the original EHP files from the japanese ISO.
 
 ### StrTbl converter
