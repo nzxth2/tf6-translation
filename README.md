@@ -12,6 +12,11 @@ WARNING: If you try to use this tool on EHP files that have been modified by Cli
 Converts strTbl binary files into readable text files and vice versa.  
 Make sure you don't change the number of lines in the resulting .txt file. In other words, do not remove or add any lines, not even empty ones.
 
+### Code Talker
+Decodes the CARD_Desc_J.bin file found inside the cardinfo_jpn.ehp archive into a readable text file.
+The tool can also encode that file back, allowing you to edit the card descriptions in the game.
+The usage is a bit tricky though, so I suggest carefully reading the readme.txt bundled with the release. Especially the section about DICT files.
+
 ### Story Rebuilder
 When you launch the program, you get to choose which .txt file you want to reinsert into the story_scr_j_Old.ehp file.  
 The resulting ehp file is generated in the "Algo Ehp" directory.  
